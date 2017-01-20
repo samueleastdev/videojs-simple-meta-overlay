@@ -24,55 +24,57 @@ $font-stack: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 0;
+    z-index: 0
 }
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container {
-    margin: 3%;
-    width: 50%;
+    margin: 2%;
+    width: 40%;
     padding: 0;
-    text-shadow: 0 -1px 0 #252525;
-    text-align: left;
+    text-align: left
 }
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h5 {
-    font-family: $font-stack;
-	font-size: 1.5vw;
-    font-weight: 200;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-shadow: 0 1px 4px rgb(0, 0, 0);    
     color: #fff;
+    line-height: 1.3;
     margin: 0;
-    text-shadow: 0 -1px 0 #252525;
-    max-width: 30em;
-    margin: 0 0 0.4em 0;
     padding: 0;
+    opacity: 0.9;
+    float: left;
+    
+    width: 100%;
 }
 
-
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h1 {
-    font-family: $font-stack;
-    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4vw;
-    letter-spacing: 0.1vw;
+    font-weight: 700;
     color: #fff;
-    margin: 0 0 0.2em 0;
+    text-shadow: 0 1px 4px rgb(0, 0, 0);
+    margin: 1vw 0;
     padding: 0;
+    float: left;
+    width: 100%;
 }
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container p {
-    font-family: $font-stack;
+    font-family: 'Helvetica', sans-serif;
+    text-shadow: 0 1px 4px rgb(0, 0, 0);
     font-weight: normal;
     font-weight: 200;
-    font-size: 1.4vw;
-    color: #fff;
-    text-shadow: 0 -1px 0 #252525;
+    font-size: 1.8vw;
     line-height: 1.3em;
+    color: #fff;
     width: 100%;
-    max-width: 30em;
     margin: 0;
     padding: 0;
 }
@@ -86,5 +88,5 @@ $font-stack: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 .s3bubble-meta-overlay-hidden {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s 1s, opacity 2s linear;
+  transition: visibility 0s 1s, opacity 1s linear;
 }

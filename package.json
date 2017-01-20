@@ -1,6 +1,6 @@
 {
   "name": "videojs-s3bubble-meta-overlay",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A simple overlay for S3Bubble to display meta data title and description",
   "main": "es5/plugin.js",
   "generator-videojs-plugin": {
