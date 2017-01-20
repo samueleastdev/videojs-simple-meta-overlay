@@ -79,6 +79,7 @@ When using with RequireJS (or another AMD library), get the script in whatever w
 
 ```js
 require(['video.js', 'videojs-s3bubble-meta-overlay'], function(videojs) {
+
   	var player = videojs('my-video');
 
   	player.s3BubbleMetaOverlay({
