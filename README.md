@@ -65,7 +65,12 @@ require('videojs-s3bubble-meta-overlay');
 
 var player = videojs('my-video');
 
-player.s3BubbleMetaOverlay();
+player.s3BubbleMetaOverlay({
+    subTitle: "You're watching",
+    title: "S3Bubble AWS Media Streaming",
+    para: "This is a simple overlay used for the S3Bubble AWS media streaming platform."
+});
+
 ```
 
 ### RequireJS/AMD
@@ -74,9 +79,14 @@ When using with RequireJS (or another AMD library), get the script in whatever w
 
 ```js
 require(['video.js', 'videojs-s3bubble-meta-overlay'], function(videojs) {
-  var player = videojs('my-video');
+  	var player = videojs('my-video');
 
-  player.s3BubbleMetaOverlay();
+  	player.s3BubbleMetaOverlay({
+    	subTitle: "You're watching",
+    	title: "S3Bubble AWS Media Streaming",
+    	para: "This is a simple overlay used for the S3Bubble AWS media streaming platform."
+	});
+
 });
 ```
 
