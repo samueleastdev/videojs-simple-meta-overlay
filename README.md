@@ -27,14 +27,29 @@ To include videojs-s3bubble-meta-overlay on your website or web application, use
 This is the simplest case. Get the script in whatever way you prefer and include the plugin _after_ you include [video.js][videojs], so that the `videojs` global is available.
 
 ```html
-<script src="//path/to/video.min.js"></script>
-<script src="//path/to/videojs-s3bubble-meta-overlay.min.js"></script>
-<script>
-  var player = videojs('my-video');
+	<video id="s3bubble-video" class="video-js vjs-16-9 vjs-default-skin" controls preload="auto">
+    	<source src="https://s3.amazonaws.com/s3bubble.videojs/claire-in-motion.mp4" type="video/mp4">
+  	</video>
+    <script src="//path/to/video.min.js"></script>
+	<script src="//path/to/videojs-s3bubble-meta-overlay.min.js"></script>
+  	<script>
+     
+   	var player = videojs('s3bubble-video', {
+       	autoplay: true
+   	}, function() {
 
-  player.s3BubbleMetaOverlay();
-</script>
+       	player.s3BubbleMetaOverlay({
+        	subTitle: "You're watching",
+           	title: "S3Bubble AWS Media Streaming",
+           	para: "This is a simple overlay used for the S3Bubble AWS media streaming platform."
+       	});
+
+   	});
+    
+  </script>
 ```
+
+Check out our <a href="http://jsbin.com/borotev/edit?html,output" target="_blank">live example</a> if you're having trouble.
 
 ### Browserify
 

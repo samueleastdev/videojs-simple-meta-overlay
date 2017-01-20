@@ -25,79 +25,43 @@ $font-stack: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     padding: 0;
     text-shadow: 0 -1px 0 #252525;
     text-align: left;
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -webkit-transition: opacity 350ms cubic-bezier(.23,1,.32,1),-webkit-transform 350ms cubic-bezier(.23,1,.32,1);
-    -o-transition: opacity 350ms cubic-bezier(.23,1,.32,1),-o-transform 350ms cubic-bezier(.23,1,.32,1);
-    -moz-transition: transform 350ms cubic-bezier(.23,1,.32,1),opacity 350ms cubic-bezier(.23,1,.32,1),-moz-transform 350ms cubic-bezier(.23,1,.32,1);
-    transition: transform 350ms cubic-bezier(.23,1,.32,1),opacity 350ms cubic-bezier(.23,1,.32,1);
-    transition: transform 350ms cubic-bezier(.23,1,.32,1),opacity 350ms cubic-bezier(.23,1,.32,1),-webkit-transform 350ms cubic-bezier(.23,1,.32,1),-moz-transform 350ms cubic-bezier(.23,1,.32,1),-o-transform 350ms cubic-bezier(.23,1,.32,1);
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -moz-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -moz-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-align-content: flex-end;
-    -ms-flex-line-pack: end;
-    align-content: flex-end;
-    font-size: 2.5em;
 }
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h5 {
     font-family: $font-stack;
-	font-size: .6em;
+	font-size: 1.5vw;
     font-weight: 200;
     color: #fff;
     margin: 0;
     text-shadow: 0 -1px 0 #252525;
     max-width: 30em;
-    line-height: 2em;
+    margin: 0 0 0.4em 0;
+    padding: 0;
 }
 
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container h1 {
     font-family: $font-stack;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 4vw;
     letter-spacing: 0.1vw;
     color: #fff;
-    margin: 0;
+    margin: 0 0 0.2em 0;
+    padding: 0;
 }
 
 .video-js .s3bubble-meta-overlay .s3bubble-meta-overlay-container p {
     font-family: $font-stack;
     font-weight: normal;
     font-weight: 200;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: #fff;
     text-shadow: 0 -1px 0 #252525;
     line-height: 1.3em;
     width: 100%;
-    letter-spacing: 0.1vw;
     max-width: 30em;
+    margin: 0;
+    padding: 0;
 }
 
 .s3bubble-meta-overlay-visible {
