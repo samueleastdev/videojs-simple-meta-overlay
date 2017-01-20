@@ -1,4 +1,4 @@
-# videojs-s3bubble-meta-overlay
+# Videojs S3Bubble Meta Overlay
 
 A simple overlay for S3Bubble video meta data title and description
 
