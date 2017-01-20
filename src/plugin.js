@@ -16,10 +16,6 @@ const defaults = {};
  */
 const onPlayerReady = (player, options) => {
 
-    console.log('options', options);
-
-    console.log(player.el());
-
     var s3BubbleMetaOverlayWrap = document.createElement('div');
     s3BubbleMetaOverlayWrap.id = "s3bubble-meta-overlay";
     s3BubbleMetaOverlayWrap.className = 's3bubble-meta-overlay';
